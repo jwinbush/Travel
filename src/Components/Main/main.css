@@ -35,19 +35,18 @@
     right: 0;
     bottom: 2px;
     z-index: -1;
-
 }
 
-.secContent {
+.main .secContent {
     justify-content: center;
     gap: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .singleDestination {
     height: 100%;
     display: grid;
-    row-gap: 15px;
-    padding: -1rem;
     border-radius: 10px;
     align-items: center;
     background: var(--cardBG);
@@ -61,14 +60,17 @@
     transition: .3 ease;
 }
 
-
-
-
 .imageDiv {
     width: 100%;
     overflow: hidden;
     margin: 0 auto;
 }
+
+.imageDiv img {
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+}
+
 .img {
     width: 100%;
     object-fit: cover;
@@ -180,12 +182,14 @@
 }
 
 
-@media screen and  (min-width: 840px) {
-    .secContent{
-        grid-template-columns: repeat(3, 1fr);
+@media screen and  (max-width: 840px) {
+    .main .secContent{
+        grid-template-columns: repeat(2, 1fr);
     }
+}
 
-    .secContent .singleDestination{
-        height: auto;
+@media screen and  (max-width: 600px) {
+    .main .secContent{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
