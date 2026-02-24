@@ -23,7 +23,7 @@ const closeNav = () => {
         <section className="navbar-section">
             <header className="header flex">
                 <div className="logo-container">
-                    <a href="#" className="logo flex">
+                    <a href="/#" className="logo flex">
                         <h1><WiDayFog className="icon"/> Travel.</h1>
                     </a>
                 </div>
@@ -33,33 +33,33 @@ const closeNav = () => {
                 <ul className="navbar-lists flex">
                     
                     <li className="navbar-item">
-                        <a href="#" className="navbar-link">Home</a>
+                        <a href="/#" className="navbar-link">Home</a>
                     </li>
                    
                     <li className="navbar-item">
-                        <a href="#" className="navbar-link">Shop</a>
+                        <a href="/#" className="navbar-link">Shop</a>
                     </li>
                    
                     <li className="navbar-item">
-                        <a href="#" className="navbar-link">Services</a>
+                        <a href="/#" className="navbar-link">Services</a>
                     </li>
                    
                     <li className="navbar-item">
-                        <a href="#" className="navbar-link">About</a>
+                        <a href="/#" className="navbar-link">About</a>
                     </li>
                     
                     <li className="navbar-item">
-                        <a href="#" className="navbar-link">Pages</a>
+                        <a href="/#" className="navbar-link">Pages</a>
                     
                     </li>
 
                     <li className="navbar-item">
-                       <a href="#" className="navbar-link">Contact</a> 
+                       <a href="/#" className="navbar-link">Contact</a> 
                     
                     </li>
                 
                     <button className="btn">
-                        <a href="#"> Book Now</a>
+                        <a href="/#"> Book Now</a>
                     </button>
                 </ul>
 
